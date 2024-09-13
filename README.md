@@ -152,7 +152,7 @@ Body:
 #### Cadastrar cidade 
 
 ```http
-  POST /api/Empresas/Cadastrar
+  POST /api/Cidades/Cadastrar
 ```
 
 Body:
