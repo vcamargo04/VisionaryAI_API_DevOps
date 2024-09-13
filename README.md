@@ -61,7 +61,7 @@ Depois de passar o paramêtro, clicar no botão "Execute" e a requisição será
 #### Buscar empresa por id 
 
 ```http
-  GET /api/Empresas/BuscarPorId
+  GET /api/Empresas/BuscarPorId/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -96,7 +96,7 @@ Body:
 #### Atualizar empresa 
 
 ```http
-  PUT /api/Empresas/Atualizar
+  PUT /api/Empresas/Atualizar/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -124,7 +124,7 @@ Body:
 #### Excluir empresa
 
 ```http
-  DELETE /api/Empresas/Excluir
+  DELETE /api/Empresas/Excluir/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
@@ -142,7 +142,7 @@ Body:
 #### Buscar cidade por id 
 
 ```http
-  GET /api/Cidades/BuscarPorId
+  GET /api/Cidades/BuscarPorId/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -173,7 +173,7 @@ Body:
 #### Atualizar cidade 
 
 ```http
-  PUT /api/Cidades/Atualizar
+  PUT /api/Cidades/Atualizar/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -197,7 +197,7 @@ Body:
 #### Excluir cidade
 
 ```http
-  DELETE /api/Cidades/Excluir
+  DELETE /api/Cidades/Excluir/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
@@ -215,7 +215,7 @@ Body:
 #### Buscar fonte de dado por id 
 
 ```http
-  GET /api/FontesDeDados/BuscarPorId
+  GET /api/FontesDeDados/BuscarPorId/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -246,7 +246,7 @@ Body:
 #### Atualizar fonte de dados 
 
 ```http
-  PUT /api/FontesDeDados/Atualizar
+  PUT /api/FontesDeDados/Atualizar/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -270,7 +270,7 @@ Body:
 #### Excluir fonte de dados
 
 ```http
-  DELETE /api/FonteDeDados/Excluir
+  DELETE /api/FonteDeDados/Excluir/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
