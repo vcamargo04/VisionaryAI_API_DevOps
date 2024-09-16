@@ -18,6 +18,7 @@ Pedro Gomes Fernandes- RM551480
 A abordagem escolhida foi de uma api monolítica, pois armazena em um único projeto: todos os elementos da aplicação (controladores, modelos, repositórios e dados) estão organizados dentro de uma mesma solução.
 E também pela escalabilidade, porque o crescimento e a adição de novas funcionalidades continuam sendo gerenciados dentro de um único projeto, ao invés de dividir as responsabilidades em microservices.
 
+
 ## Diferenças entre as abordagens
 
 A arquitetura monolítica é uma aplicação unificada, onde todas as funcionalidades estão integradas e executadas como um único bloco. Ela é mais simples de desenvolver e gerenciar inicialmente.
